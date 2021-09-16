@@ -10,4 +10,11 @@ public class BookDTO {
     public BookDTO(){
         // 객체를 생성하는 작업을 한다. 눈에 보이지 않지만.(기계어 코드)
     }
+    // 생성자 메서드
+    public BookDTO(String title, int price, String company, int page) {
+        this.title = title;
+        this.price = price;
+        this.company = company;
+        this.page = page;
+    }
 }
