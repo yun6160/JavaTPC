@@ -6,5 +6,10 @@ public class Dog extends Animal {
     public void eat() {
         System.out.println("개처럼 먹다");
     }
-
+    public Dog() {
+        super(); // 애니멀의 생성자를 호출함
+        // 애니멀 생성한 다음 도그 생성
+        // 자식이 부모에 있는 생성자를 내부적으로 호출
+        // new Animal();
+    }
 }
